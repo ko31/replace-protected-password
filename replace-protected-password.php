@@ -84,16 +84,16 @@ class replace_protected_password {
                 $new_password = $_POST['new_password'];
                 if ( !$current_password ) {
                     $e->add( 'error', esc_html__( 'Please select a current password.', 'replace-protected-password' ) );
-                    set_transient( 'replace-protected-password-errors', $e->get_error_messages(), 10 );
+                    set_transient( 'replace-protected-password-errors', $e->get_error_messages(), 5 );
                 }
                 if ( !$new_password ) {
                     $e->add( 'error', esc_html__( 'Please input a new password.', 'replace-protected-password' ) );
-                    set_transient( 'replace-protected-password-errors', $e->get_error_messages(), 10 );
+                    set_transient( 'replace-protected-password-errors', $e->get_error_messages(), 5 );
                 }
                 if ( $current_password && $new_password ) {
                     $sql = $wpdb->prepare( "UPDATE `" . $wpdb->posts . "` SET `post_password` = %s WHERE `post_password` = %s", array( $new_password, $current_password ) );
                     $wpdb->query($sql);
-                    set_transient( 'replace-protected-password-updated', true, 10 );
+                    set_transient( 'replace-protected-password-updated', true, 5 );
                 }
 
                 wp_redirect( 'options-general.php?page=replace-protected-password' );
