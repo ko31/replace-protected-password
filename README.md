@@ -21,6 +21,10 @@ Manage your protected passwords easier.
 
 ## Changelog
 
+### 1.0.1
+
+* Japanese support
+
 ### 1.0.0
 
 * Initial Public Release
