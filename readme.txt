@@ -4,7 +4,7 @@ Donate link: http://go-sign.info
 Tags: post, page, password
 Requires at least: 3.3
 Tested up to: 4.6.1
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 
 This plugin allows you to update the password for the post or page at a time.
@@ -26,7 +26,7 @@ Manage your protected passwords easier.
 
 == Changelog ==
 
-= 1.0.1 =
+= 1.0.2 =
 * Japanese support
 
 = 1.0.0 =

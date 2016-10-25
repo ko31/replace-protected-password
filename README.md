@@ -21,7 +21,7 @@ Manage your protected passwords easier.
 
 ## Changelog
 
-### 1.0.1
+### 1.0.2
 
 * Japanese support
 
