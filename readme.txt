@@ -1,5 +1,5 @@
 === Replace Protected Password ===
-Contributors: Ko Takagi
+Contributors: ko31
 Donate link: http://go-sign.info
 Tags: post, page, password
 Requires at least: 3.3
