@@ -3,7 +3,7 @@
  * Plugin Name: Replace Protected Password
  * Plugin URI:  https://github.com/ko31/replace-protected-password
  * Description: This plugin allows you to update the password for the post or page at a time.
- * Version:     1.0.2
+ * Version:     1.0.3
  * Author:      Ko Takagi
  * Author URI:  http://go-sign.info/
  * License:     GPLv2
