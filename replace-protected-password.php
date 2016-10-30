@@ -76,8 +76,8 @@ class replace_protected_password {
 
     public function admin_init()
     {
-        if ( isset($_POST['_wpnonce']) && $_POST['_wpnonce'] ) {
-            if ( check_admin_referer( 'replace-protected-password', '_wpnonce' ) ) {
+        if ( isset($_POST['replace-protected-password-nonce']) && $_POST['replace-protected-password-nonce'] ) {
+            if ( check_admin_referer( 'replace-protected-password', 'replace-protected-password-nonce' ) ) {
                 global $wpdb;
                 $e = new WP_Error();
                 $current_password = $_POST['current_password'];
@@ -133,7 +133,7 @@ class replace_protected_password {
 <h2>Replace Protected Password</h2>
 
 <form method="post" action="<?php echo esc_attr($_SERVER['REQUEST_URI']); ?>">
-<?php wp_nonce_field( 'replace-protected-password', '_wpnonce' ); ?>
+<?php wp_nonce_field( 'replace-protected-password', 'replace-protected-password-nonce' ); ?>
 
 <table class="form-table">
 <tbody>
