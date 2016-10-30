@@ -126,8 +126,7 @@ class replace_protected_password {
     public function options_page()
     {
         global $wpdb;
-        $sql = $wpdb->prepare( "SELECT `post_password`, COUNT(`post_password`) count FROM " . $wpdb->posts . " WHERE `post_password` <> '' GROUP BY `post_password`" );
-        $passwords = $wpdb->get_results( $sql );
+        $passwords = $wpdb->get_results( "SELECT `post_password`, COUNT(`post_password`) count FROM " . $wpdb->posts . " WHERE `post_password` <> '' GROUP BY `post_password`" );
 ?>
 <div id="replace-protected-password" class="wrap">
 <h2>Replace Protected Password</h2>
