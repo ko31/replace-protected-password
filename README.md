@@ -1,5 +1,7 @@
 # Replace Protected Password
 
+
+[![Build Status](https://travis-ci.org/ko31/replace-protected-password.svg)](https://travis-ci.org/ko31/replace-protected-password)
 [![](https://img.shields.io/wordpress/plugin/v/replace-protected-password.svg)](https://wordpress.org/plugins/replace-protected-password/)
 [![](https://img.shields.io/wordpress/v/replace-protected-password.svg)](https://wordpress.org/plugins/replace-protected-password/)
 
