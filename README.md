@@ -4,6 +4,7 @@
 [![Build Status](https://travis-ci.org/ko31/replace-protected-password.svg)](https://travis-ci.org/ko31/replace-protected-password)
 [![](https://img.shields.io/wordpress/plugin/v/replace-protected-password.svg)](https://wordpress.org/plugins/replace-protected-password/)
 [![](https://img.shields.io/wordpress/v/replace-protected-password.svg)](https://wordpress.org/plugins/replace-protected-password/)
+[![](https://ps.w.org/replace-protected-password/assets/banner-1554x500.png)](https://wordpress.org/plugins/replace-protected-password/)
 
 This plugin allows you to update the password for the post or page at a time.
 
