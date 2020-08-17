@@ -3,7 +3,7 @@ Contributors: ko31
 Donate link: http://go-sign.info
 Tags: post, page, password
 Requires at least: 4.3
-Tested up to: 5.4
+Tested up to: 5.5
 Stable tag: 1.0.3
 License: GPLv2 or later
 
