@@ -1,6 +1,6 @@
 === Replace Protected Password ===
 Contributors: ko31
-Donate link: http://go-sign.info
+Donate link: https://go-sign.info
 Tags: post, page, password
 Requires at least: 4.3
 Tested up to: 5.5

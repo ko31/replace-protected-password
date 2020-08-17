@@ -5,7 +5,7 @@
  * Description: This plugin allows you to update the password for the post or page at a time.
  * Version:     1.0.3
  * Author:      Ko Takagi
- * Author URI:  http://go-sign.info/
+ * Author URI:  https://go-sign.info/
  * License:     GPLv2
  * Text Domain: replace-protected-password
  * Domain Path: /languages
