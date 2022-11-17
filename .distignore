@@ -1,0 +1,11 @@
+.commit_template
+.git
+.svnignore
+.wp-env.json
+README.md
+bin
+composer.json
+package-lock.json
+package.json
+phpunit.xml
+tests
