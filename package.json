@@ -1,0 +1,26 @@
+{
+  "name": "replace-protected-password",
+  "version": "1.0.3",
+  "description": "This plugin allows you to update the password for the post or page at a time.",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "wp-env start",
+    "update": "wp-env start --update",
+    "stop": "wp-env stop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ko31/replace-protected-password.git"
+  },
+  "author": "ko31",
+  "license": "GPL-2.0-or-later",
+  "bugs": {
+    "url": "https://github.com/ko31/replace-protected-password/issues"
+  },
+  "homepage": "https://github.com/ko31/replace-protected-password",
+  "devDependencies": {
+    "@wordpress/env": "^5.7.0"
+  }
+}
