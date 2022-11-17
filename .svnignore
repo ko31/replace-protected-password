@@ -1,5 +1,13 @@
+.commit_template
 .git
-.travis.yml
+.svnignore
+.wp-env.json
+README.md
 bin
+composer.json
+languages
+package-lock.json
+package.json
 phpunit.xml
+readme.txt
 tests
