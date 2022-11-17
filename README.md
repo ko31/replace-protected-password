@@ -1,7 +1,7 @@
 # Replace Protected Password
 
 
-[![Build Status](https://travis-ci.org/ko31/replace-protected-password.svg)](https://travis-ci.org/ko31/replace-protected-password)
+[![PHPUnit](https://github.com/ko31/replace-protected-password/actions/workflows/phpunit.yml/badge.svg)]
 [![](https://img.shields.io/wordpress/plugin/v/replace-protected-password.svg)](https://wordpress.org/plugins/replace-protected-password/)
 [![](https://img.shields.io/wordpress/v/replace-protected-password.svg)](https://wordpress.org/plugins/replace-protected-password/)
 [![](https://ps.w.org/replace-protected-password/assets/banner-1554x500.png)](https://wordpress.org/plugins/replace-protected-password/)
