@@ -1,0 +1,6 @@
+/vendor
+/node_modules
+composer.lock
+package-lock.json
+.wp-env.override.json
+.phpunit.result.cache
