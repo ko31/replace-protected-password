@@ -16,7 +16,7 @@ jobs:
       fail-fast: false
       matrix:
         php: ['5.6', '7.0', '7.1', '7.2', '7.3', '7.4', '8.0', '8.1']
-        wp: ['latest', '4.3', '5.0']
+        wp: ['latest']
 
     steps:
     - name: Checkout
@@ -29,10 +29,10 @@ jobs:
       with:
         php-version: ${{ matrix.php }}
         coverage: none
-        tools: composer:v2, phpunit-polyfills
+        tools: composer:v2
 
     - name: Install dependencies
-      run: composer update -W
+      run: composer install --ignore-platform-reqs
 
     - name: Setup WP Tests
       run: bash bin/install-wp-tests.sh wordpress_test root '' 127.0.0.1 ${{ matrix.wp }}
